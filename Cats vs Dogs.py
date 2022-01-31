@@ -1,7 +1,10 @@
 #Import necessary libraries
+import os
 import cv2
 import numpy as np
-import os
+from tqdm import tqdm
+import torch
+import torch.nn as nn
 from random import shuffle
 
 TRAIN_DIR = 'FILL_ME'
